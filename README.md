@@ -16,13 +16,13 @@ What variable(s) are considered to be the features for your model?
 
 - In the preprocessing section, the model considers all columns contained in the "encoded_application_df", except for the "IS_SUCCESSFUL" column as the features for the model. The following image shows how we designated targets and features in our model:
 
-![image of targets/features]()
+![image of targets/features](https://github.com/josem279/Neural_Network_Charity_Analysis/blob/main/Screenshots/FeaturesAndTargets.PNG)
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
 - The columns "EIN" and "NAME" are considered neither targets or features, which is why they are removed from out DataFrame early in the preprocessing section of the challenge.
   
-![image of removed non targets/features]()
+![image of removed non targets/features](https://github.com/josem279/Neural_Network_Charity_Analysis/blob/main/Screenshots/NonFeaturesOrTagets.PNG)
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -37,11 +37,11 @@ What steps did you take to try and increase model performance?
 
 - In order to try and achieve the target 75% performance I tried a couple of things. In my first attempt, I tried to increase the accuracy by increasing the number of neurons in the first and second layers but only got a 58% accuracy. In my second attempt, I tried to reduce the number of "noisy" inputs that I fed to my model, this led to a better accuracy of 62%. Finally, I tried to increase the number of values in each bin to reduce the number of unique values that the model evaluated. Again, my accuracy rating went up to 66% but failed to meet or exceed 75%.
 
-![image of 1st optimized model output]()
+![image of 1st optimized model output](https://github.com/josem279/Neural_Network_Charity_Analysis/blob/main/Screenshots/ResultsOpt1.PNG)
 
-![image of 2nd optimized model output]()
+![image of 2nd optimized model output](https://github.com/josem279/Neural_Network_Charity_Analysis/blob/main/Screenshots/ResultsOpt2.PNG)
 
-![image of 3rd optimized model output]()
+![image of 3rd optimized model output](https://github.com/josem279/Neural_Network_Charity_Analysis/blob/main/Screenshots/ResultsOpt3.PNG)
 
 ## Summary
 
